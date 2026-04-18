@@ -15,22 +15,56 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-4 font-label text-xs tracking-tighter">
-          <h4 className="text-[#00FF41] mb-2 font-bold uppercase">Navigation</h4>
-          <a className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform" href="#">TERMINAL</a>
-          <a className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform" href="#">SYSTEM_STATUS</a>
-          <a className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform" href="#">ENCRYPTION_DOCS</a>
+          <h4 className="text-[#00FF41] mb-2 font-bold uppercase">
+            Navigation
+          </h4>
+          <a
+            className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform"
+            href="#"
+          >
+            TERMINAL
+          </a>
+          <a
+            className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform"
+            href="#"
+          >
+            SYSTEM_STATUS
+          </a>
+          <a
+            className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform"
+            href="#"
+          >
+            ENCRYPTION_DOCS
+          </a>
         </div>
 
         <div className="flex flex-col gap-4 font-label text-xs tracking-tighter">
           <h4 className="text-[#00FF41] mb-2 font-bold uppercase">Company</h4>
-          <a className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform" href="#">ABOUT_US</a>
-          <a className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform" href="#">CAREERS</a>
-          <a className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform" href="#">CONTACT_HQ</a>
+          <a
+            className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform"
+            href="#"
+          >
+            ABOUT_US
+          </a>
+          <a
+            className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform"
+            href="#"
+          >
+            CAREERS
+          </a>
+          <a
+            className="text-[#ebffe2]/40 hover:text-[#00FF41] hover:translate-x-1 transition-transform"
+            href="#"
+          >
+            CONTACT_HQ
+          </a>
         </div>
 
         <div className="space-y-4 font-label text-xs tracking-tighter lg:col-span-1">
           <h4 className="text-[#00FF41] font-bold uppercase">Subscribe</h4>
-          <p className="text-[#ebffe2]/40">Get notified about critical updates.</p>
+          <p className="text-[#ebffe2]/40">
+            Get notified about critical updates.
+          </p>
           <div className="relative">
             <span className="absolute left-0 top-1/2 -translate-y-1/2 text-primary font-bold">{`> `}</span>
             <input
