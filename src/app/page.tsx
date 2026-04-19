@@ -5,6 +5,7 @@ import { ThreatFeed } from "@/../components/sections/ThreatFeed";
 import { Integrations } from "@/../components/sections/Integrations";
 import { Pricing } from "@/../components/sections/Pricing";
 import { CTA } from "@/../components/sections/CTA";
+import { Testimonials } from "@/../components/sections/Testimonials";
 
 export function Hero() {
   return (
@@ -83,6 +84,7 @@ export default function Home() {
       <ThreatFeed />
       <Integrations />
       <Pricing />
+      <Testimonials />
       <CTA />
       <Footer />
     </>
